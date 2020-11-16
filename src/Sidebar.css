@@ -46,3 +46,14 @@
     border: gray;
     margin-left: 10px;
 }
+
+.sidebar_searchContainer > .MuiSvgIcon-root{
+    color: gray;
+    padding: 10px;
+}
+
+.sidebar_chats {
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+}

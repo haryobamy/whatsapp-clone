@@ -1,9 +1,10 @@
 import React from 'react';
-import { Avatar, IconButton } from '@material-ui/core';
+import { Avatar, IconButton, Select } from '@material-ui/core';
 import { Chat, DonutLarge, MoreVert, Search  } from '@material-ui/icons';
 
 
 import  './Sidebar.css';
+import SidebarChat from './SidebarChat';
 
 
 
@@ -29,7 +30,12 @@ function Sidebar() {
                      </div>
                     </div>
 
-                 <div className='sidebar_chats'></div>
+                 <div className='sidebar_chats'>
+                     <SidebarChat />
+                     <SidebarChat />
+                     <SidebarChat />
+                     <SidebarChat />
+                 </div>
             </div>
                  
             
