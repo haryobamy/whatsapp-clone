@@ -57,3 +57,12 @@
     background-color: white;
     overflow: scroll;
 }
+
+.sidebarChat_info> h2 {
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.sidebarChat_info {
+    margin-left: 15px;
+}
